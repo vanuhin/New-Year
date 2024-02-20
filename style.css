@@ -1,0 +1,58 @@
+header,footer{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+*{
+    margin: 0;
+}
+.nav{
+    display: flex;
+    gap: 30px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(83, 73, 73);
+    font-size: 30px;
+    transition: 2s;
+}
+a:hover{
+    color: blueviolet;
+}
+.index-tytle, .index-text, ol{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.contacts-link{
+    color: rgb(224, 183, 129);
+    display: block;
+}
+.contacts{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 41px;
+}
+.box{
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+.contacts-list{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.santa-claus-text{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
